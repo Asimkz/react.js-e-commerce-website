@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.today-heading h5{
+    color: var(--Secondary-2, #DB4444);
+
+    font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 125% */
+}
+.today-heading{
+    display: flex;
+    align-items: center;
+
+    justify-content: flex-start;
+    gap: 16px;
+}
+.saleproduct-container{
+    margin-top: 214px;
+}
+.flashsale-heading{
+    color: var(--Text2, #000);
+
+    font-family: 'Inter', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px; /* 133.333% */
+letter-spacing: 1.44px;
+}
+.flashsale-today-heading-rapo{
+    display: flex;
+
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+.date-time-rapo p{
+    color: var(--Text2, #000);
+    font-family: 'Poppins', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 150% */
+}
+.date-time-rapo h3{
+    color: var(--Text2, #000);
+    font-family: 'Inter', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 93.75% */
+letter-spacing: 1.28px;
+}
+.date-time-rapo{
+    display: inline-flex;
+
+flex-direction: column;
+align-items: center;
+gap: 4px;
+flex-shrink: 0;
+}
+.dot-img{
+display: contents;
+align-items: center;
+
+
+}
+.time-main-rapo{
+    gap: 30px;
+    display: flex;
+    
+
+}
+.arrow-icons-btns{
+    gap: 8px;
+}
+.arrow:hover{
+background-color: #F5F5F5;
+border-radius: 100%;
+
+}
+.cards-row{
+    margin-top: 40px;
+}
+.Button-rapo{
+    margin-top: 78px;
+   
+    margin-bottom: 78px;
+   position: relative;
+}
+.Button-rapo::after{
+    content: "";
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    border-bottom-style: inset;
+    width: 100%;
+}

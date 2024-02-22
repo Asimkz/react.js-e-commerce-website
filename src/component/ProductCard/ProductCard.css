@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100&display=swap');
+.card-img-top{
+    width: 172px;
+height: 152px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card-img{
+    position: relative;
+    height: 250px;
+    margin-top: 25px;
+}
+.Tag-css{
+    position: absolute;
+    top: -27px;
+    left: 0px;
+    color: var(--Text, #FAFAFA);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    display: inline-flex;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+background: var(--Secondary-2, #DB4444);
+}
+.Tag-Specific-css {
+
+    position: absolute;
+    top: -27px;
+    left: 0px;
+    color: var(--Text, #FAFAFA);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    display: inline-flex;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+background: var(--Secondary-2, #DB4444);
+display: none;
+}
+.tag-specific-two-css {
+
+    position: absolute;
+    top: -27px;
+    left: 0px;
+    color: var(--Text, #FAFAFA);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    display: inline-flex;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Button1, #0F6);
+
+
+}
+
+.card-img-top{
+    position: relative;
+}
+.hert-img{
+    position: absolute;
+    top: -31px;
+    right: 0px;
+}
+.hert-img:hover{
+    filter: invert(1);
+   
+}
+.eye-img:hover{
+    filter: invert(1);
+   
+}
+.eye-img{
+    position: absolute;
+    top: 8px;
+    right: 0px;
+}
+.card-heading{
+    color: #000;
+
+  font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 24px; /* 150% */
+}
+.product-card-body{
+    border-radius: 4px;
+background: var(--Secondary, #F5F5F5);
+border-color: #F5F5F5;
+}
+.product-card-footer{
+    background: var(--Secondary, #f5f5f584);
+    border-color: #F5F5F5;
+}
+.product-price{
+    color: var(--Secondary-2, #DB4444);
+    font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 150% */
+}
+.product-price span{
+    color: var(--Button, #000);
+    font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 150% */
+text-decoration-line: strikethrough;
+opacity: 0.5;
+margin-left: 12px;
+text-decoration:line-through ;
+}
+.fa-star{
+    color: #FFAD33;
+    align-items: flex-end;
+}
+.fa-star{
+    color: #FFAD33;
+}
+.rating-stars p{
+    color: var(--Text2, #000);
+    font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 21px; /* 150% */
+opacity: 0.5;
+
+}
+.rating-stars{
+    margin-top: 8px;
+    align-items: baseline;
+}
+.card-img-top{
+    position: relative;
+}
+.product-card-body button{
+    position: absolute;
+    bottom: 118px;
+    left: 0px;
+    width: 100%;
+   padding: 10px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--Button, #000);
+    display: none;
+   
+}
+.product-card-body button:hover{
+   
+    position: absolute;
+    bottom: 118px;
+    left: 0px;
+    width: 100%;
+   padding: 10px;
+    color: #ff0000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--Button, #000);
+    display: none;
+   
+}
+.product-card-body:hover button{
+    display: block;
+}
+.ch-css{
+    display: grid;
+}
+.pi-css{
+    display: flex;
+    align-items: flex-end;
+
+}
+

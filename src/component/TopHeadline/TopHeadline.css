@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.form-select-lg {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.text-link-rapo p{
+    color: var(--Text, #FAFAFA);
+
+/* Title/14PX Regular */
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+}
+.text-link-rapo p span{
+    color: var(--Text, #FAFAFA);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    text-decoration-line: underline;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.form-select {
+    display: block;
+    width: 5%;
+    color: white;
+    border-color: black
+    ;
+    background-color: #000;
+    background-image: url("../../images/DropDown.png");
+    
+   
+    
+}
+.form-select-lg {
+    color: var(--Text, #FAFAFA);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    width: 82px;
+}
+.form-select:focus {
+    border-color:black;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+.topheadline{
+    display: flex;
+    background: var(--Button, #000);
+padding: 12px 136px 12px 445px;
+justify-content: flex-end;
+align-items: center;
+flex-shrink: 0;
+}
+@media (max-width: 1199.98px) { .topheadline{
+
+padding: 12px 20px 12px 20px;
+
+} }

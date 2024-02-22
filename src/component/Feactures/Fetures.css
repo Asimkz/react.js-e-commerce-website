@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100&display=swap');
+
+.small-cards-row{
+ margin-top: 30px;
+}
+
+.feature-first-img{
+    position: relative;
+    display: inline-block;
+    padding: 89px 29px 0px 30px;
+    border-radius: 4px;
+    background: var(--Button, #0D0D0D);
+  }
+  
+  
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    /* transform: translate(-50%, -50%); */
+    text-align: start;
+    color: #ffffff; /* Set text color */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .text-overlay h3 {
+    color: var(--Text, #FAFAFA);
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.72px;
+  }
+  .text-overlay p {
+    color: var(--Text, #FAFAFA);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+  }
+  .text-overlay a p{
+    color: #FFF;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 150% */
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+
+   
+  }
+  .feature-img-two{
+    display: flex;
+    justify-content: end;
+  }
+  .feature-Second-img{
+    position: relative;
+    display: flex;
+    padding: 0px 30px 0px 29px;
+    justify-content: end;
+    border-radius: 4px;
+    background: var(--Button, #0D0D0D);
+  }
+  .feature-third-img{
+    
+        position: relative;
+        display: flex;
+        padding: 50px 30px 0px 29px;
+        border-radius: 4px;
+        background: var(--Button, #0D0D0D);
+        justify-content: center;
+        height: 284px;
+  }
+  /* .shadow-div
+  {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100px;
+      flex-shrink: 0;
+      border-radius: 504px;
+      opacity: 0.3;
+      background: #D9D9D9;
+      filter: blur(100px);
+      z-index: -1;
+  
+  }
+  .feature-third-img{
+      position: relative;
+      z-index: 0;
+  } */
+ .feature-six-col-styling {
+    background-color: #0D0D0D;
+ }
