@@ -20,9 +20,9 @@ const Product = ({ SighnUpData }) => {
     const [Sighnupdatapass, setSighnUpDataPass] = useState(SighnUpData);
   
     // Function to update Sighnupdatapass
-    const updateSighnUpData = (newData) => {
-      setSighnUpDataPass(newData);
-    };
+    // const updateSighnUpData = (newData) => {
+    //   setSighnUpDataPass(newData);
+    // };
   
     // useEffect to update the state when SighnUpData prop changes
     useEffect(() => {
@@ -31,160 +31,158 @@ const Product = ({ SighnUpData }) => {
     
       
     return (
-
-        <>
- <div className="container Product-section">
-                <div className="row col-rapo">
-                    <div className="col-lg-6 col-md-6 col-sm-12 ">
-                        <div className="flashsale-today-heading-rapo ">
-                            <div className="today-heading d-flex align-items-center  ">
-                                <img className='img-fluid' src={rectangle} alt="" />
-                                <h5>Our Products</h5>
-                            </div>
-                            <div className="flashsale-heading">
-                                <h2>Explore Our Products</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12 d-lg-flex justify-content-lg-end d-sm-flex justify-content-sm-center">
-                        <div className="arrow-icons-btns d-flex justify-content-end mt-auto">
-                        <a href="/" ><img className='img-fluid arrow' src={iconsarrowleft} alt="" /></a>
-            <a href="/" ><img className='img-fluid arrow' src={iconsarrowright} alt="" /></a>
-                        </div>
-                    </div>
+      <>
+        <div className="container Product-section">
+          <div className="row col-rapo">
+            <div className="col-lg-6 col-md-6 col-sm-12 ">
+              <div className="flashsale-today-heading-rapo ">
+                <div className="today-heading d-flex align-items-center  ">
+                  <img className="img-fluid" src={rectangle} alt="" />
+                  <h5>Our Products</h5>
                 </div>
-            </div>
-            <div className="container">
-                <div className="row cards-row">
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
-                        <Card SighnUpDataPass={Sighnupdatapass}
-                        chcss='ch-css'
-                        picss="pi-css"
-                            CardImg={dogfoodimg}
-                            CardHeading="Breed Dry Dog Food"
-                            CardPrice="$100"
-                            RatingNum="(65)"
-                           iconone={icon1}
-                           icontwo={icon1}
-                          
-                        />
-                         
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
-                        <Card
-                         chcss='ch-css'
-                         picss="pi-css"
-                             CardImg={cannoncamera}
-                             CardHeading="CANON EOS DSLR Camera"
-                             CardPrice="$360"
-                             RatingNum="(95) "
-                             iconone={icon2}
-                           icontwo={icon1}
-                            
-                              />
-
-                            
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
-                        <Card
-                         chcss='ch-css'
-                         picss="pi-css"
-                             CardImg={laptop}
-                             CardHeading="ASUS FHD Gaming Laptop"
-                             CardPrice="$700"
-                             RatingNum="(325)"
-                             iconone={icon2}
-                             icontwo={icon2}
-                        />
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
-                        <Card
-                         chcss='ch-css'
-                         picss="pi-css"
-                            CardImg={facecream}
-                            CardHeading="Curology Product Set "
-                            CardPrice="$500"
-                            RatingNum="(145)"
-                            iconone={icon2}
-                            icontwo={icon1}
-                        />
-                    </div>
-
+                <div className="flashsale-heading">
+                  <h2>Explore Our Products</h2>
                 </div>
+              </div>
             </div>
-            <div className="container ">
-                <div className="row cards-row">
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
-                        <Card 
-                        chcss='ch-css'
-                        picss="pi-css"
-                        tagcss="tag-specific-two-css"
-                            CardImg={childrencar}
-                            CardHeading="Kids Electric Car"
-                            CardPrice="$960"
-                            RatingNum="(65)"
-                            tagpercent="New"
-                           iconone={icon2}
-                           icontwo={icon2}
-                           >
-                       
-                        </Card>
-                            <Switches/>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
-                        <Card
-                         chcss='ch-css'
-                         picss="pi-css"
-                             CardImg={toshows}
-                             CardHeading="Jr. Zoom Soccer Cleats"
-                             CardPrice="$1160"
-                             RatingNum="(35) "
-                             iconone={icon2}
-                           icontwo={icon2}
-                            
-                              />
-
-                            
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
-                        <Card
-                         chcss='ch-css'
-                         picss="pi-css"
-                         tagcss="tag-specific-two-css"
-                             CardImg={gameplaytoy}
-                             CardHeading="GP11 Shooter USB Gamepad"
-                             CardPrice="$660"
-                             RatingNum="(55)"
-                             tagpercent="New"
-                             iconone={icon2}
-                             icontwo={icon1}
-                            
-                        />
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
-                        <Card
-                         chcss='ch-css'
-                         picss="pi-css"
-                            CardImg={jakit}
-                            CardHeading="Quilted Satin Jacket "
-                            CardPrice="$660"
-                            RatingNum="(55)"
-                            iconone={icon2}
-                            icontwo={icon1}
-                        />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-12">
-                    <div className="Button-rap d-flex justify-content-center">
-              <Button/>
+            <div className="col-lg-6 col-md-6 col-sm-12 d-lg-flex justify-content-lg-end d-sm-flex justify-content-sm-center">
+              <div className="arrow-icons-btns d-flex justify-content-end mt-auto">
+                <a href="/">
+                  <img
+                    className="img-fluid arrow"
+                    src={iconsarrowleft}
+                    alt=""
+                  />
+                </a>
+                <a href="/">
+                  <img
+                    className="img-fluid arrow"
+                    src={iconsarrowright}
+                    alt=""
+                  />
+                </a>
+              </div>
             </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row cards-row">
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
+              <Card
+                SighnUpDataPass={Sighnupdatapass}
+                chcss="ch-css"
+                picss="pi-css"
+                CardImg={dogfoodimg}
+                CardHeading="Breed Dry Dog Food"
+                CardPrice="$100"
+                RatingNum="(65)"
+                iconone={icon1}
+                icontwo={icon1}
+              />
             </div>
-           
-        </>
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
+              <Card
+                chcss="ch-css"
+                picss="pi-css"
+                CardImg={cannoncamera}
+                CardHeading="CANON EOS DSLR Camera"
+                CardPrice="$360"
+                RatingNum="(95) "
+                iconone={icon2}
+                icontwo={icon1}
+              />
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
+              <Card
+                chcss="ch-css"
+                picss="pi-css"
+                CardImg={laptop}
+                CardHeading="ASUS FHD Gaming Laptop"
+                CardPrice="$700"
+                RatingNum="(325)"
+                iconone={icon2}
+                icontwo={icon2}
+              />
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
+              <Card
+                chcss="ch-css"
+                picss="pi-css"
+                CardImg={facecream}
+                CardHeading="Curology Product Set "
+                CardPrice="$500"
+                RatingNum="(145)"
+                iconone={icon2}
+                icontwo={icon1}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="container ">
+          <div className="row cards-row">
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
+              <Card
+                chcss="ch-css"
+                picss="pi-css"
+                tagcss="tag-specific-two-css"
+                CardImg={childrencar}
+                CardHeading="Kids Electric Car"
+                CardPrice="$960"
+                RatingNum="(65)"
+                tagpercent="New"
+                iconone={icon2}
+                icontwo={icon2}
+              ></Card>
+              <Switches />
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
+              <Card
+                chcss="ch-css"
+                picss="pi-css"
+                CardImg={toshows}
+                CardHeading="Jr. Zoom Soccer Cleats"
+                CardPrice="$1160"
+                RatingNum="(35) "
+                iconone={icon2}
+                icontwo={icon2}
+              />
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
+              <Card
+                chcss="ch-css"
+                picss="pi-css"
+                tagcss="tag-specific-two-css"
+                CardImg={gameplaytoy}
+                CardHeading="GP11 Shooter USB Gamepad"
+                CardPrice="$660"
+                RatingNum="(55)"
+                tagpercent="New"
+                iconone={icon2}
+                icontwo={icon1}
+              />
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-sm-5">
+              <Card
+                chcss="ch-css"
+                picss="pi-css"
+                CardImg={jakit}
+                CardHeading="Quilted Satin Jacket "
+                CardPrice="$660"
+                RatingNum="(55)"
+                iconone={icon2}
+                icontwo={icon1}
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="Button-rap d-flex justify-content-center">
+                <Button />
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
     );
 };
 

@@ -17,8 +17,8 @@ import SI from './images/SI.png';
 import SighnUp from './component/SighnUp/SighnUp.jsx';
 import LoginForm from './component/LoginForm/Login.jsx';
 import PageNotFound from './component/PageNotFound/PageNotFound.jsx';
-import DisplayLoginData from './component/DisplayLoginData/DisplayLoginData.jsx';
-import ProductCard from './component/ProductCard/ProductCard.jsx';
+// import DisplayLoginData from './component/DisplayLoginData/DisplayLoginData.jsx';
+// import ProductCard from './component/ProductCard/ProductCard.jsx';
 function App(props) {
 const [dataForm, setDataForm] = useState("")
 const [signupdata, setSignUpData] = useState("")
@@ -35,36 +35,33 @@ const handleInput = (inputData) => {
 
 
   return (
-
     <>
-    {/* <DisplayLoginData LoginData={dataForm}/> */}
-      <div>
-      </div>
+      {/* <DisplayLoginData LoginData={dataForm}/> */}
+      <div></div>
       <Routes>
-        <Route path="/" element={<SighnUp OnName={getanotherdata}/>} />
-        <Route path='/Home' element={
-          <>
-          
-            <Topheadline shopName="xyz" name/>
-            <NavBar HeartIcon={HI} ShopIcon={SI} />
-            <Banner />
-            <SaleProduct />
-            <Categories />
-            <SellingProduct />
-            <SecondBanner />
-            <Product SighnUpData={signupdata} />
-            <Features />
-            <DiliveryService />
-            <Footer />
-
-          </>
-        } />
+        <Route path="/" element={<SighnUp OnName={getanotherdata} />} />
+        <Route
+          path="/Home"
+          element={
+            <>
+              <Topheadline shopName="xyz" name />
+              <NavBar HeartIcon={HI} ShopIcon={SI} />
+              <Banner />
+              <SaleProduct />
+              <Categories />
+              <SellingProduct />
+              <SecondBanner />
+              <Product SighnUpData={signupdata} />
+              <Features />
+              <DiliveryService />
+              <Footer />
+            </>
+          }
+        />
 
         <Route path="/login" element={<LoginForm OnName={getdata} />} />
         <Route path="/Pagenotfound" element={<PageNotFound />} />
       </Routes>
-
-
     </>
   );
 }

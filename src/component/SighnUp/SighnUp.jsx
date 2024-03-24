@@ -37,55 +37,75 @@ const SighnUp = (props) => {
     //    setAllEntry ([...allEntry , newEntry ])
 
 return (
-    <>
-        <Topheadline />
-        <NavBar />
-        <div className="container-fluid Sigh-up-container">
-            <div className="row ">
-
-                <div className="col-lg-8 col-md-6 col-sm-12">
-                    <div className="sighnup-img">
-                        <img className='img-fluid' src={beatsnoop} alt="" />
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 d-grid justify-content-center">
-
-                    <form onSubmit={handlesubmitform}>
-                        <div className="sighnup-heading-subheading mb-0 mt-5">
-                            <h3 >Create an account</h3>
-                            <p class="lead">Enter your details below</p>
-                        </div>
-                        <div className="sighn-up-form">
-                            <div class="sighn-up-div ">
-                                <input type="text" class="custom-form-control sighn-up-input" placeholder="Name" autoComplete='off' name='name' onChange={handlevalue}
-                                />
-                            </div>
-                            <div class="sighn-up-div ">
-                                <input type="email" class="custom-form-control sighn-up-input" placeholder="Email" autoComplete='off'
-                                    name='email' onChange={handlevalue}
-                                />
-                            </div>
-                            <div class="sighn-up-div ">
-                                <input type="password" class="custom-form-control sighn-up-input" placeholder="Password" autoComplete='off'
-                                    name='password' onChange={handlevalue}
-                                />
-                            </div>
-                            <Link to='/login'><button type="submit" class="btn sighn-up-btn">Create Account</button></Link>
-                        </div>
-                        <button type="button" class="btn sighn-up-google-btn mt-3">
-                            <img className='img-fluid' src={googleicon} alt="Google Icon" /> Sign up with Google
-                        </button>
-                        <button type="submit" class="btn sighn-up-google-btn mt-3">
-                            Submit
-                        </button>
-                        <div className="text-muted">
-                            <p class="">Already have an account? <a href="login.html">Login</a></p>
-                        </div>
-
-                    </form>
-                    <div className='row'>
-                        <div className="col-12">
-                            {/* {
+  <>
+    <Topheadline />
+    <NavBar />
+    <div className="container-fluid Sigh-up-container">
+      <div className="row ">
+        <div className="col-lg-8 col-md-6 col-sm-12">
+          <div className="sighnup-img">
+            <img className="img-fluid" src={beatsnoop} alt="" />
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-6 col-sm-12 d-grid justify-content-center">
+          <form onSubmit={handlesubmitform}>
+            <div className="sighnup-heading-subheading mb-0 mt-5">
+              <h3>Create an account</h3>
+              <p class="lead">Enter your details below</p>
+            </div>
+            <div className="sighn-up-form">
+              <div class="sighn-up-div ">
+                <input
+                  type="text"
+                  class="custom-form-control sighn-up-input"
+                  placeholder="Name"
+                  autoComplete="off"
+                  name="name"
+                  onChange={handlevalue}
+                />
+              </div>
+              <div class="sighn-up-div ">
+                <input
+                  type="email"
+                  class="custom-form-control sighn-up-input"
+                  placeholder="Email"
+                  autoComplete="off"
+                  name="email"
+                  onChange={handlevalue}
+                />
+              </div>
+              <div class="sighn-up-div ">
+                <input
+                  type="password"
+                  class="custom-form-control sighn-up-input"
+                  placeholder="Password"
+                  autoComplete="off"
+                  name="password"
+                  onChange={handlevalue}
+                />
+              </div>
+              <Link to="/login">
+                <button type="submit" class="btn sighn-up-btn">
+                  Create Account
+                </button>
+              </Link>
+            </div>
+            <button type="button" class="btn sighn-up-google-btn mt-3">
+              <img className="img-fluid" src={googleicon} alt="Google Icon" />{" "}
+              Sign up with Google
+            </button>
+            <button type="submit" class="btn sighn-up-google-btn mt-3">
+              Submit
+            </button>
+            <div className="text-muted">
+              <p class="">
+                Already have an account? <a href="login.html">Login</a>
+              </p>
+            </div>
+          </form>
+          <div className="row">
+            <div className="col-12">
+              {/* {
         allEntry.map((curElem)=>{
 return(
 <div className='Datashowing'>
@@ -97,17 +117,14 @@ return(
 )
         })
     } */}
-                        </div>
-                    </div>
-
-                </div>
             </div>
-
+          </div>
         </div>
+      </div>
+    </div>
 
-
-        <Footer />
-    </>
+    <Footer />
+  </>
 );
 
 };

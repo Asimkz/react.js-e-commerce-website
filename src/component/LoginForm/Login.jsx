@@ -5,10 +5,10 @@ import Topheadline from '../TopHeadline/TopHeadline';
 import NavBar from '../Navbar/NavBar';
 import Footer from '../Footer/Footer';
 import beatsnoop from '../../images/dl.beatsnoop 1.png'
-import googleicon from '../../images/Icon-Google.png'
+// import googleicon from '../../images/Icon-Google.png'
 import {Link} from 'react-router-dom'
 import { useState } from 'react';
-import DisplayLoginData from '../DisplayLoginData/DisplayLoginData';
+// import DisplayLoginData from '../DisplayLoginData/DisplayLoginData';
 const LoginForm = (props) => {
     // console.log(props)
     
