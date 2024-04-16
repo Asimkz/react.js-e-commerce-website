@@ -29,7 +29,8 @@ padding: 0px;
     border-right-style: inset;
     width: 100%;
 }
-.form-selector-content a{
+.form-selector-content {
+    cursor: pointer;
     color: var(--Text2, #000);
 text-decoration: none;
 font-family: 'Poppins', sans-serif;
@@ -73,7 +74,7 @@ letter-spacing: 1.92px;
     align-items: center;
     gap: 24px;
 }
-.shopnow-link p a{
+.shopnow-link p {
     text-align: center;
     color: #FAFAFA;
     font-family: 'Poppins', sans-serif;
@@ -83,6 +84,7 @@ letter-spacing: 1.92px;
     line-height: 24px; /* 150% */
     border-bottom-style: inset;
     text-decoration: none;
+    cursor: pointer;
 
 }
 .fa-arrow-right{

@@ -30,6 +30,7 @@ line-height: 28px; /* 140% */
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
+cursor: pointer;
 line-height: 24px; /* 150% */
 }
 .footer-txt p a{

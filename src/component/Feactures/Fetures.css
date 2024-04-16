@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100&display=swap'); */
 
 .small-cards-row{
  margin-top: 30px;
@@ -45,7 +43,7 @@
     font-weight: 600;
     line-height: 21px; /* 150% */
   }
-  .text-overlay a p{
+  .text-overlay-a{
     color: #FFF;
 
 font-size: 16px;
@@ -59,13 +57,13 @@ line-height: 24px; /* 150% */
   }
   .feature-img-two{
     display: flex;
-    justify-content: end;
+    flex: end;
   }
   .feature-Second-img{
     position: relative;
     display: flex;
     padding: 0px 30px 0px 29px;
-    justify-content: end;
+    flex: end;
     border-radius: 4px;
     background: var(--Button, #0D0D0D);
   }
@@ -101,3 +99,4 @@ line-height: 24px; /* 150% */
  .feature-six-col-styling {
     background-color: #0D0D0D;
  }
+ 
